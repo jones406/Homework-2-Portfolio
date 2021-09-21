@@ -1,36 +1,39 @@
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     font-size: 20px; 
 }
 
 .header{
     display: flex;
-    height: 60px;
-    /* flex-wrap: wrap; */
+    max-height: fit-content;
+    padding: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: maroon;
-    border-bottom: 25px ivory;
-    justify-content: space-between;
-    align-items: center;
+    background-color: rgb(141, 99, 99);
+    justify-content:flex-start;
+    align-items:flex-start
 }
 
+#divheader {
+    display: column;
+}
+#pagetitle {
+    font-size: 40px;
+}
 #headerimage {
-    height: 50px;
-    width: 70px;
+    width: 35%;
     border-image: round;
 }
     
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(20, 13, 3);
 }
 
-/* .bc {
-    background-color: pink !important;
-} */
-
-/* #bc {
-    background-color: blue;
-} */
+aside {
+    display: flex;
+    flex-direction: column;
+    position: left;
+    border: burlywood;
+}
 
 main {
     background-color: tan;
@@ -69,6 +72,7 @@ p {
     background-color: maroon;
 }
 
+/* Going over media queries w/ tutor
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
