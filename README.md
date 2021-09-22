@@ -1,13 +1,17 @@
 # Homework-2-Portfolio
-UTA Bootcamp homework 2: make a portfolio website from scratch
+UTA Bootcamp homework 2: Make a portfolio website from scratch.
+
+My portfolio page contains a header with links to various sections on my page with an About Me section, work samples, and contact information. The work samples will have content added later.
 
 HTML
-I used starter code from the previous homework as that was a responsive layout and included links within the webpage
+I used some HTML starter code from Homework 1, as that was a responsive layout and included links that navigate within the webpage.
 
 CSS
-I copied and used one of the reset.css files from Unit 2
+I copied and used one of the reset.css files from Unit 2.
 
 I used information to style my images from https://www.w3schools.com/css/css_rwd_images.asp
 
+I was assisted by my tutor to divide up my HTML more cleanly and better understand flexbox and responsive design in my CSS, such as using viewwidth (vw) to size images.
 
-view width: tutor
+Completed Webpage:
+![Portfolio: Brooke Jones](/assets/screencap_portf.png)
