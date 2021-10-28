@@ -6,87 +6,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 
 <body>
-
-    <header class="header">
-        <div>
-            <img id="headerimage" src="./assets/headshot.png" alt="Headshot of Brooke Jones">
-            <h1>Brooke Jones</h1>
-        </div>
-            <ul> 
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Brooke Jones</a>
+            <img class="circle" src="./assets/headshot.png">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#aboutme">About me</a></li>
                 <li><a href="#mywork">My Work</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-    </header>
+        </div>
+    </nav>
 
     <main>
-        <section class="section">
-                <h2 id="aboutme">About me</h2>
-                <br>
-                <p>I have over 10 years experience in K-12 science editing and curriculum developement, and I am currently working toward completing a full stack bootcamp at
-                    The University of Austin, Texas.
-                </p>
-        </section>
-
-        <section class="section">
-            <h2 id="mywork">My Work</h2>
-            <br>
-            <p>Samples of my work can be found here. Be sure to check back for more in the future!</p>
-                
-            <article class="article">
-                    <div class="div">
-                        <h3>Assignment 1: Refactor a Website</h3> 
-                            <br>
-                        <p>In this assignment, I was tasked with refactoring a website. I cleaned up the HTML and CSS files and created my first README file.</p>
-                            <br>
-                        <a href=“http://github.com/jones406/Homework-1-HTMLrefactor”><img id="img" src="./assets/hw1capture.png" alt="Photo of refactored website."></a>    
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="header" id="aboutme">About Me</h5>
+                    <div class="card horizontal">
+                        <div class="card-image small">
+                            <img src="./assets/hermosabeach.jpg" alt="Headshot of Brooke Jones">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <h6>K-12 e-Learning and Publishing</h6>
+                                <p>I have over 10 years experience in K-12 science editing and curriculum
+                                    developement, in-depth knowledge of the NGSS and developing Earth science
+                                    content.</p>
+                                <br />
+                                <h6>Web Development</h6>
+                                <p>I am currently working toward completing a full-stack web development
+                                    (javascript) bootcamp at The University of Austin, Texas.</p>
+                                <br />
+                                <h6>Hobbies and Interests</h6>
+                                <p>I love photographing nature, and I when I'm not coding, I'm likely out playing
+                                    sand volleyball.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">My Resume</a>
+                            </div>
+                        </div>
                     </div>
-                    
-                </article>
+                </div>
 
-                <article class="article">
-                    <div class="div">
-                            <h3>Assignment 2: TK</h3>
-                                <br>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio asperiores ratione
-                                 totam quibusdam eos ducimus in veniam ad recusandae quo repellat minus laudantium 
-                                 mollitia, veritatis eaque omnis nisi quis autem at consequuntur ipsa excepturi. Nobis 
-                                 ducimus accusamus iusto dolorum!</p>
-                                 <br>
+                <div class="col s12">
+                    <h5 class="header" id="mywork">My Work</h5>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./assets/drip.jpg"
+                                alt="photo of water dripping from a plant">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <p>Here are links to some assignments and projects I've completed for my web development bootcamp.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://nicoledodge.github.io/Project1/">Group Project: TravelBuddy App</a>
+                                <a href="https://jones406.github.io/Homework-5-WorkdayScheduler/">WorkDay
+                                    Scheduler</a>
+                                <a href="https://jones406.github.io/Homework-6-WeatherDashboard/">Weather App</a>
+                                <div>
+                                    ---
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <p> Here are links to some interactive print and digital programs I've helped to ideate and develop.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="https://www.hmhco.com/programs/hmh-science-dimensions#overview">HMH Science Dimensions</a>
+                                <a href="https://www.hmhco.com/programs/sciencefusion#overview">HMH Science Fusion</a>
+                            </div>
+                        </div>
                     </div>
-                    <img id="img2" src="./assets/drip.jpg" alt="Photo of water dripping off of a plant.">
-                </article>
-                <article class="article">
-                    <div class="div">
-                            <h3>Assignment 3: TK</h3>
-                                <br>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel optio asperiores ratione
-                                 totam quibusdam eos ducimus in veniam ad recusandae quo repellat minus laudantium 
-                                 mollitia, veritatis eaque omnis nisi quis autem at consequuntur ipsa excepturi. Nobis 
-                                 ducimus accusamus iusto dolorum!</p>
-                                 <br>
-                    </div>
-                    <img id="img2" src="./assets/shootingstar.jpg" alt="Photo of water dripping off of a plant.">
-                </article>
-        </section>
+                </div>
 
-        <section class="section">
-            <h2 id="contact">Contact</h2>
-            <br>
-                <li><a href="https://www.linkedin.com/in/brookejones406/">My LinkedIn</a></li>
-                <li><a href="https://twitter.com/BrookeJ44351450">My Twitter</a></li>
-                <li><a href="mailto:brookejones406@gmail.com">Email Me</a></li>
-            </ul>
-        </section>
+                <div class="col s12">
+                    <h5 class="header" id="contact">Contact Me</h5>
+                    <div class="card horizontal">
+                        <div class="card-image">
+                            <img src="./assets/shootingstar.jpg" alt="Headshot of Brooke Jones">
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-action">
+                                <ul>
+                                    <li><a href="https://www.linkedin.com/in/brookejones406/">LinkedIn</a></li>
+                                    <br />
+                                    <li><a href="https://twitter.com/BrookeJ44351450">Twitter</a></li>
+                                    <br />
+                                    <li><a href="mailto:brookejones406@gmail.com">Email Me</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
         <p>Thank you for visiting!</p>
     </footer>
+
+    <script src="./assets/script.js" /></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
 
