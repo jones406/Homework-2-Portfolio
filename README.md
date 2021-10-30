@@ -11,7 +11,9 @@ I copied and used one of the reset.css files from Unit 2.
 
 I used information to style my images from https://www.w3schools.com/css/css_rwd_images.asp
 
-I was assisted by my tutor to divide up my HTML more cleanly and better understand flexbox and responsive design in my CSS, such as using viewwidth (vw) to size images.
+I was assisted by my tutor to divide up my HTML more cleanly and better understand flexbox and responsive design in my CSS.
+
+Responsive hamburger menu: https://www.youtube.com/watch?v=dIyVTjJAkLw
 
 Completed Webpage:
-![Portfolio: Brooke Jones](/assets/screencap_portf.png)
+![Portfolio: Brooke Jones]()
