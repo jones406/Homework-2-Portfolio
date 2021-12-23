@@ -14,19 +14,19 @@ main {
 }
 
 a {
-    font-size: 1.3rem;
+    font-size: 1.3em;
     font-weight:900;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 
 .nav-wrapper {
-    background:  rgb(203, 192, 238);
+    background: rgb(203, 192, 238);
     border-bottom: black;
     border: 1rem;
 }
 
 #header {
-    font-size: 5vw;
+    font-size: 3rem;
     font-weight: bolder;
 }
 
@@ -34,9 +34,8 @@ a {
    object-fit: cover;
    width: 10%;
    overflow: hidden;
-   box-shadow: 0 0 5px 5px rgb(49, 46, 49); 
-   margin: 1rem;
-
+   /* box-shadow: 0 0 5px 5px rgb(49, 46, 49);  */
+   margin: .5rem;
 }
 
 .card {
