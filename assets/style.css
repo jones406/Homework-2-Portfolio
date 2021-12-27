@@ -29,8 +29,9 @@ nav .nav-wrapper {
 }
 
 .sidenav {
-    background-image: url(/assets/shootingstar.jpg);
-    background-size: cover;
+    width: 29%;
+    height: 30%;
+    box-shadow: 0 0 8px 8px rgb(49, 46, 49); 
 }
 
 #headshot {
