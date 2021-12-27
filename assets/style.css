@@ -1,11 +1,11 @@
 * {
-    font-family: 'Bungee Hairline', cursive;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
 
 body {
-    background: rgb(216, 207, 243);
-    color: black;
+    background-image: url(/assets/shootingstar.jpg);
+    background-size: cover;
+    min-height: 100vh;
 } 
 
 main {
@@ -16,30 +16,30 @@ main {
 a {
     font-size: 1.3em;
     font-weight:900;
-    /* text-decoration-line: underline; */
 }
 
 .nav-wrapper {
-    background: rgb(203, 192, 238);
+    background: rgb(68,108,177);
     border-bottom: black;
     border: 1rem;
 }
 
-#header {
-    font-size: 3rem;
-    font-weight: bolder;
+.sidenav {
+    
+    background-image: url(/assets/shootingstar.jpg);
+    background-size: cover;
 }
 
 #headshot {
    object-fit: cover;
-   width: 10%;
+   width: 15%;
    overflow: hidden;
-   /* box-shadow: 0 0 5px 5px rgb(49, 46, 49);  */
-   margin: .5rem;
+   box-shadow: 0 0 9px 2px rgb(49, 46, 49); 
+   margin: .4rem;
 }
 
 .card {
-    background:  rgb(203, 192, 238);
+    background:  rgb(255, 255, 255);
     box-shadow: 0 0 8px 8px rgb(49, 46, 49); 
     display: flex;
     justify-content: center;
