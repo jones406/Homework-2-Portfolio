@@ -1,19 +1,5 @@
-# Homework-2-Portfolio
-UTA Bootcamp homework 2: Make a portfolio website from scratch. Include a header with links to various sections on my page: an "About Me" section, work samples, and contact information. Include images and links of work samples.
-Updates throughout bootcamp: add resume and linkedin information.
-Restyle page based on new skills.
-Ensure page is responsive and clean.
+# Portfolio
+This Portfolio was made when I began learning HTML and CSS. I've periodically updated it throughout my time at the University of Texas Coding Bootcamp. I will eventually archive this after I've completed my React.js portfolio.
 
-HTML
-I used some HTML starter code from Homework 1, as that was a responsive layout and included links that navigate within the webpage.
-
-CSS
-I copied and used one of the reset.css files from Unit 2.
-I used information to style my images from https://www.w3schools.com/css/css_rwd_images.asp
-
-I was assisted by my tutor to divide up my HTML more cleanly and better understand flexbox and responsive design in my CSS.
-
-Responsive hamburger menu: https://www.youtube.com/watch?v=dIyVTjJAkLw
-
-Completed Webpage:
-![Portfolio: Brooke Jones](./assets/portfolio.png)
+## Tools
+I used Google Fonts, Materialize CSS, and Font Awesome Icons to complete this project.
