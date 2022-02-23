@@ -7,7 +7,8 @@ h6 {
 }
 
 body {
-    background-image: url(/assets/shootingstar.jpg);
+    /* background-image: url(/assets/shootingstar.jpg); */
+    background-color: rgb(185, 204, 212);
     background-size: cover;
     min-height: 100vh;
 } 
@@ -36,7 +37,7 @@ nav .nav-wrapper {
 .sidenav {
     height: 50%;
     box-shadow: 0 0 25px 7px rgb(49, 46, 49); 
-    background: rgb(226,232,248);
+    background: rgb(241, 247, 250);
 }
 
 #headshot {
@@ -46,7 +47,7 @@ nav .nav-wrapper {
 }
 
 .card {
-    background: rgb(226,232,248);
+    background: rgb(241, 247, 250);
     box-shadow: 0 0 25px 7px rgb(49, 46, 49); 
     display: flex;
     justify-content: center;
@@ -56,7 +57,7 @@ nav .nav-wrapper {
 
 .myphoto {
     margin: .5em;
-    box-shadow: 0 0 25px 7px rgb(197, 199, 232); 
+    box-shadow: 0 0 25px 7px rgb(197, 213, 232); 
     border-radius: .5%;
     width: 80%;
     margin-top: 5%;
@@ -64,9 +65,9 @@ nav .nav-wrapper {
 
 .card-image {
    object-fit: cover;
-   width: 50%;
+   width: 70%;
    overflow: hidden;
-   padding: 25%;
+   padding: 5%;
 }
 
 #contact {
