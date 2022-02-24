@@ -34,6 +34,10 @@ nav .nav-wrapper {
     height: 100px;
 }
 
+small {
+    font-size: .7em;
+}
+
 .sidenav {
     height: 50%;
     box-shadow: 0 0 25px 7px rgb(49, 46, 49); 
@@ -56,16 +60,16 @@ nav .nav-wrapper {
 }
 
 .myphoto {
-    margin: .5em;
+    margin: .2rem;
     box-shadow: 0 0 25px 7px rgb(197, 213, 232); 
     border-radius: .5%;
-    width: 80%;
+    width: 65%;
     margin-top: 5%;
 }
 
 .card-image {
    object-fit: cover;
-   width: 70%;
+   width: 40%;
    overflow: hidden;
    padding: 5%;
 }
